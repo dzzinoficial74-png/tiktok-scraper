@@ -15,7 +15,7 @@ ONE param per input (tripadvisor QueryOrIdField convention, never a sibling
 from marshmallow import validate
 
 from schema_fields import (BaseSchema, ChoiceField, CountryCodeField, DateField, LanguageCodeField, QueryField,
-                           RefField, StrippedString)
+                           RefField, StrippedString, Flag)
 from tiktok import ads, discovery, refs, search, users
 
 
