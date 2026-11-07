@@ -3,3 +3,5 @@ cheroot
 curl_cffi
 marshmallow
 pytest
+pillow
+requests
