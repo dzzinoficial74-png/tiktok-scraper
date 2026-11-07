@@ -87,7 +87,7 @@ class EmptySchema(BaseSchema):
 
 class UserSchema(BaseSchema):
     user = UserRefField(metadata={"description": USER_DESC})
-
+    force = Flag(load_default=False) # <-- ADICIONE ESSA LINHA AQUI
 
 class UserPageSchema(UserSchema):
     cursor = CursorField()
